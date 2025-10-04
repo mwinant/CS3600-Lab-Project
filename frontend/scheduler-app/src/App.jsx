@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import ClassForm from './components/ClassForm';
-import ClassCalendar from './components/ClassCalendar';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Home from './pages/Home';
+import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
+import './pages/Pages.css';
 
 function App() {
-  const [classes, setClasses] = useState([]);
-
-  const addClass = (newClass) => {
-    setClasses([...classes, newClass]);
-    // 🔧 TODO: Send newClass to backend
-  };
-
   return (
-    <div className="app-container">
-      <header>
-        <h1>Class Scheduler</h1>
-      </header>
-      <main>
-        <ClassForm onAddClass={addClass} />
-        <ClassCalendar classes={classes} />
-      </main>
-    </div>
+    <Router>
+      <div className="app-container">
+        <NavBar />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/signin" element={<SignIn />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
