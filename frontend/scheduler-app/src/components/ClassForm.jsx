@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 
 function ClassForm({ onAddClass }) {
   const [title, setTitle] = useState('');
-  const [date, setDate] = useState('');
-  const [time, setTime] = useState('');
+  const [semester, setSemester] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,18 +27,12 @@ function ClassForm({ onAddClass }) {
         onChange={(e) => setTitle(e.target.value)}
         required
       />
-      <input
-        type="date"
-        value={date}
-        onChange={(e) => setDate(e.target.value)}
-        required
-      />
-      <input
-        type="time"
-        value={time}
-        onChange={(e) => setTime(e.target.value)}
-        required
-      />
+      <select value={semester} onChange={(e) => setSemester(e.target.value)} required>
+        <option value="">Select Semester</option>
+        <option value="Fall 2025">Fall 2025</option>
+        <option value="Spring 2026">Spring 2026</option>
+      </select>
+
       <button type="submit">Add Class</button>
     </form>
   );
