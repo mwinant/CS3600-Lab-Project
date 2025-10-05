@@ -19,7 +19,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/calendar" element={<ClassCalendar classes={classes} />} />
+            <Route path="/calendar" element={<ClassCalendar classes={classes} setClasses={setClasses} />} />
             <Route path="/account" element={<Account />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />

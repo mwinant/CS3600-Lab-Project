@@ -9,7 +9,7 @@ function ClassForm({ selectedSemester, setSelectedSemester, setClasses }) {
     e.preventDefault();
     if (!title.trim()) return;
 
-    fetch(`https://miniature-meme-pv9xpj9vjrp26q5w-8000.app.github.dev/api/courses/search/${title}`)
+    fetch(`http://127.0.0.1:8000/api/courses/search/${title}`)
       .then(res => {
         if (!res.ok) throw new Error('Course not found');
         return res.json();

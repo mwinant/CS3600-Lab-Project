@@ -10,7 +10,7 @@ function ClassCalendar({ classes, setClasses }) {
 
   // Fetch all courses on load
   useEffect(() => {
-    fetch('https://miniature-meme-pv9xpj9vjrp26q5w-8000.app.github.dev/api/courses')
+    fetch('http://127.0.0.1:8000/api/courses')
       .then(res => res.json())
       .then(data => {
         console.log('Fetched courses:', data);
@@ -97,6 +97,7 @@ function ClassCalendar({ classes, setClasses }) {
           showNonCurrentDates={false}
           dayHeaderFormat={{ weekday: 'short' }}
           height="auto"
+          eventColor="#87E1F5" // Sky blue
         />
       ) : (
         <p className="calendar-placeholder">Please select a semester to view your schedule.</p>
