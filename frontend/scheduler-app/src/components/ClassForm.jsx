@@ -1,24 +1,33 @@
 import React, { useState } from 'react';
 import './ClassForm.css';
 
-function ClassForm({ onAddClass, selectedSemester, setSelectedSemester }) {
+function ClassForm({ selectedSemester, setSelectedSemester, setClasses }) {
   const [title, setTitle] = useState('');
-  const [date, setDate] = useState('');
-  const [time, setTime] = useState('');
+  const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const newClass = {
-      title,
-      date,
-      time,
-      semester: selectedSemester,
-      id: Date.now()
-    };
-    onAddClass(newClass);
+    if (!title.trim()) return;
+
+    fetch(`http://127.0.0.1:8000/api/courses/search/${title}`)
+      .then(res => {
+        if (!res.ok) throw new Error('Course not found');
+        return res.json();
+      })
+      .then(course => {
+        if (course.date && course.time && course.semester === selectedSemester) {
+          setClasses(prev => {
+            const alreadyAdded = prev.some(cls => cls.id === course.id);
+            return alreadyAdded ? prev : [...prev, course];
+          });
+          setMessage(`Added "${course.title}" to your calendar.`);
+        } else {
+          setMessage(`Course found but missing date/time or semester mismatch.`);
+        }
+      })
+      .catch(() => setMessage('Course not found.'));
+    
     setTitle('');
-    setDate('');
-    setTime('');
   };
 
   return (
@@ -47,10 +56,10 @@ function ClassForm({ onAddClass, selectedSemester, setSelectedSemester }) {
         />
         <button type="submit">Add Class</button>
       </form>
+
+      {message && <p className="search-message">{message}</p>}
     </div>
   );
 }
 
 export default ClassForm;
-
-

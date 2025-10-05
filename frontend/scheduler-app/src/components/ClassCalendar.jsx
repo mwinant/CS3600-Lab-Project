@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import FullCalendar from '@fullcalendar/react';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
@@ -6,15 +6,23 @@ import ClassForm from './ClassForm';
 import './ClassCalendar.css';
 
 function ClassCalendar({ classes, setClasses }) {
-  const [selectedSemester, setSelectedSemester] = useState('');
+  const [selectedSemester, setSelectedSemester] = useState('Fall 2025');
 
-  const handleAddClass = (newClass) => {
-    setClasses([...classes, newClass]);
-  };
+  // Fetch all courses on load
+  useEffect(() => {
+    fetch('http://127.0.0.1:8000/api/courses')
+      .then(res => res.json())
+      .then(data => {
+        console.log('Fetched courses:', data);
+        setClasses(data);
+      })
+      .catch(err => console.error('Fetch error:', err));
+  }, []);
 
+  // Filter events by semester
   const filteredEvents = selectedSemester
     ? classes
-        .filter((cls) => cls.semester === selectedSemester)
+        .filter((cls) => cls.semester === selectedSemester && cls.date && cls.time)
         .map((cls) => ({
           title: cls.title,
           start: `${cls.date}T${cls.time}`,
@@ -22,6 +30,7 @@ function ClassCalendar({ classes, setClasses }) {
         }))
     : [];
 
+  // Export calendar as .ics
   const handleExport = () => {
     const header = [
       'BEGIN:VCALENDAR',
@@ -63,9 +72,9 @@ function ClassCalendar({ classes, setClasses }) {
   return (
     <div className="calendar-container">
       <ClassForm
-        onAddClass={handleAddClass}
         selectedSemester={selectedSemester}
         setSelectedSemester={setSelectedSemester}
+        setClasses={setClasses}
       />
 
       {selectedSemester && (
@@ -88,6 +97,7 @@ function ClassCalendar({ classes, setClasses }) {
           showNonCurrentDates={false}
           dayHeaderFormat={{ weekday: 'short' }}
           height="auto"
+          eventColor="#87E1F5" // Sky blue
         />
       ) : (
         <p className="calendar-placeholder">Please select a semester to view your schedule.</p>
@@ -97,4 +107,3 @@ function ClassCalendar({ classes, setClasses }) {
 }
 
 export default ClassCalendar;
-
