@@ -3,7 +3,7 @@ import FullCalendar from '@fullcalendar/react';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import ClassForm from './ClassForm';
-import './ClassCalendar.css'; // optional styling
+import './ClassCalendar.css';
 
 function ClassCalendar({ classes, setClasses }) {
   const [selectedSemester, setSelectedSemester] = useState('');
@@ -18,8 +18,47 @@ function ClassCalendar({ classes, setClasses }) {
         .map((cls) => ({
           title: cls.title,
           start: `${cls.date}T${cls.time}`,
+          id: cls.id,
         }))
     : [];
+
+  const handleExport = () => {
+    const header = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//Class Scheduler//EN'
+    ];
+
+    const events = filteredEvents.map((event) => {
+      const start = new Date(event.start);
+      const end = new Date(start.getTime() + 60 * 60 * 1000); // 1 hour duration
+
+      return [
+        'BEGIN:VEVENT',
+        `UID:${event.id || start.getTime()}@classscheduler`,
+        `DTSTAMP:${formatDate(new Date())}`,
+        `DTSTART:${formatDate(start)}`,
+        `DTEND:${formatDate(end)}`,
+        `SUMMARY:${event.title}`,
+        'END:VEVENT'
+      ].join('\n');
+    });
+
+    const footer = ['END:VCALENDAR'];
+    const icsContent = [...header, ...events, ...footer].join('\n');
+
+    const blob = new Blob([icsContent], { type: 'text/calendar' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'class_schedule.ics';
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const formatDate = (date) => {
+    return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+  };
 
   return (
     <div className="calendar-container">
@@ -28,6 +67,12 @@ function ClassCalendar({ classes, setClasses }) {
         selectedSemester={selectedSemester}
         setSelectedSemester={setSelectedSemester}
       />
+
+      {selectedSemester && (
+        <button onClick={handleExport} className="export-btn">
+          Export Calendar (.ics)
+        </button>
+      )}
 
       {selectedSemester ? (
         <FullCalendar
@@ -52,3 +97,4 @@ function ClassCalendar({ classes, setClasses }) {
 }
 
 export default ClassCalendar;
+
