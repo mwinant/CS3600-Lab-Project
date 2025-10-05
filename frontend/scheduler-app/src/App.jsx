@@ -4,7 +4,8 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import SignUp from './pages/SignUp';
 import SignIn from './pages/SignIn';
-import './pages/Pages.css';
+import ProfileSettings from './pages/ProfileSettings';
+import './App.css';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
+            <Route path="/profile-settings" element={<ProfileSettings />} />
           </Routes>
         </main>
       </div>

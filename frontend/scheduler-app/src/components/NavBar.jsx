@@ -19,6 +19,7 @@ const NavBar = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/signup">Sign Up</Link></li>
                     <li><Link to="/signin">Sign In</Link></li>
+                    <li><Link to="/profile-settings">Profile Settings</Link></li>
                 </ul>
             </div>
             <div className="navbar-right">
