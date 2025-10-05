@@ -10,9 +10,9 @@ const Home = () => {
         <div className="widget hoverable">
           <h3>Classes</h3>
           <ul>
-            <li title="Click to view details">Math 101 – Monday 9:00 AM</li>
-            <li title="Click to view details">Biology 202 – Tuesday 11:00 AM</li>
-            <li title="Click to view details">History 305 – Wednesday 2:00 PM</li>
+            <li title="Click to view details">CS 3600 Database Systems</li>
+            <li title="Click to view details">MATH 335 Linear Algebra</li>
+            <li title="Click to view details">CS 1234 Demo Class</li>
           </ul>
         </div>
 
