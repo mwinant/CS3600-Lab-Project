@@ -17,8 +17,8 @@ const NavBar = () => {
             <div className="navbar-center">
                 <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/signup">Sign Up</Link></li>
-                    <li><Link to="/signin">Sign In</Link></li>
+                    <li><Link to="/calendar">Calendar</Link></li>
+                    <li><Link to="/account">Account</Link></li>
                 </ul>
             </div>
             <div className="navbar-right">

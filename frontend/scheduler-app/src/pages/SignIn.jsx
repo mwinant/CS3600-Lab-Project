@@ -7,6 +7,7 @@ const SignIn = () => {
   return (
     <div className="signin-page">
       <h1>Sign In</h1>
+      <p>Don't have an account? <a href="/signup">Sign up here</a>.</p>
       <form onSubmit={(e) => {
         e.preventDefault();
         const { email, password } = e.target.elements;
