@@ -1,0 +1,12 @@
+.class-form-wrapper {
+  margin-bottom: 2rem;
+}
+
+.semester-selector {
+  margin-bottom: 1rem;
+}
+
+.semester-selector label {
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
