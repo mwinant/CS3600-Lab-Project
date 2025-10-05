@@ -10,3 +10,19 @@
   margin-right: 0.5rem;
   font-weight: bold;
 }
+
+.class-form button {
+  padding: 0.5rem 1rem;
+  background-color: #f6e27f;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.class-form button:hover {
+  background-color: #f4d95e;
+  transform: scale(1.05);
+}
+
