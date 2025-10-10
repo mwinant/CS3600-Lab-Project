@@ -6,6 +6,9 @@ import ClassForm from './ClassForm';
 import './ClassCalendar.css';
 
 function ClassCalendar({ classes, setClasses }) {
+  // Translate semester string to start and end dates
+  
+
   const [selectedSemester, setSelectedSemester] = useState('Fall 2025');
 
   // Fetch all courses on load
@@ -29,7 +32,6 @@ function ClassCalendar({ classes, setClasses }) {
           id: cls.id,
         }))
     : [];
-
   // Export calendar as .ics
   const handleExport = () => {
     const header = [
@@ -37,7 +39,6 @@ function ClassCalendar({ classes, setClasses }) {
       'VERSION:2.0',
       'PRODID:-//Class Scheduler//EN'
     ];
-
     const events = filteredEvents.map((event) => {
       const start = new Date(event.start);
       const end = new Date(start.getTime() + 60 * 60 * 1000); // 1 hour duration
@@ -69,6 +70,16 @@ function ClassCalendar({ classes, setClasses }) {
     return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
   };
 
+  // compute most recent Monday (including today if Monday)
+  const initialMonday = (() => {
+    const today = new Date();
+    const day = today.getDay();
+    const diff = (day + 6) % 7;
+    const monday = new Date(today);
+    monday.setDate(today.getDate() - diff);
+    return monday.toISOString().split('T')[0];
+  })();
+
   return (
     <div className="calendar-container">
       <ClassForm
@@ -93,7 +104,7 @@ function ClassCalendar({ classes, setClasses }) {
           slotMaxTime="21:00:00"
           allDaySlot={false}
           headerToolbar={false}
-          initialDate="2025-10-06"
+          initialDate={initialMonday}
           showNonCurrentDates={false}
           dayHeaderFormat={{ weekday: 'short' }}
           height="auto"

@@ -49,7 +49,7 @@ function AdminPanel() {
             });
     }
     //add database connection here but this is a placeholder
-    const semesters = ['Fall 2023', 'Spring 2024', 'Summer 2024', 'Fall 2024'];
+    const semesters = [ 'Fall 2025', 'Spring 2026', 'Summer 2026', 'Fall 2026'];
     return (
         <div className="admin-panel">
             <h1>Admin Panel</h1>
