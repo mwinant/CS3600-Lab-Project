@@ -9,13 +9,14 @@ function ClassForm({ selectedSemester, setSelectedSemester, setClasses }) {
     e.preventDefault();
     if (!title.trim()) return;
 
-    fetch(`http://127.0.0.1:8000/api/courses/search/${title}`)
+    // First try searching by course name
+    fetch(`http://localhost:8000/api/courses/search/${encodeURIComponent(title)}`)
       .then(res => {
         if (!res.ok) throw new Error('Course not found');
         return res.json();
       })
       .then(course => {
-        if (course.date && course.time && course.semester === selectedSemester) {
+        if (course.meetingTimes && course.semester === selectedSemester) {
           setClasses(prev => {
             const alreadyAdded = prev.some(cls => cls.id === course.id);
             return alreadyAdded ? prev : [...prev, course];
@@ -41,6 +42,11 @@ function ClassForm({ selectedSemester, setSelectedSemester, setClasses }) {
           required
         >
           <option value="">Select Semester</option>
+          <option value="Fall 2023">Fall 2023</option>
+          <option value="Spring 2024">Spring 2024</option>
+          <option value="Summer 2024">Summer 2024</option>
+          <option value="Fall 2024">Fall 2024</option>
+          <option value="Spring 2025">Spring 2025</option>
           <option value="Fall 2025">Fall 2025</option>
           <option value="Spring 2026">Spring 2026</option>
         </select>

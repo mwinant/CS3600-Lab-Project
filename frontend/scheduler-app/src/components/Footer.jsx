@@ -9,6 +9,7 @@ const Footer = () => {
         <a href="/account">Account</a>
         <a href="/signin">Sign In</a>
         <a href="/calendar">Calendar</a>
+        <a href="/admin">Admin Panel</a>
       </div>
     </footer>
   );

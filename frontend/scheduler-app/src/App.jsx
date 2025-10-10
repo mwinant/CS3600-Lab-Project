@@ -8,7 +8,7 @@ import SignIn from './pages/SignIn';
 import './pages/Pages.css';
 import Account from './pages/Account';
 import Footer from './components/Footer';
-
+import AdminPanel from './pages/AdminPanel';
 function App() {
   const [classes, setClasses] = useState([]);
   
@@ -23,6 +23,7 @@ function App() {
             <Route path="/account" element={<Account />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/signin" element={<SignIn />} />
+            <Route path="/admin" element={<AdminPanel />} />
           </Routes>
         </main>
         <Footer />

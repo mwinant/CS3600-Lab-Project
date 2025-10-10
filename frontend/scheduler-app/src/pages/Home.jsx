@@ -2,6 +2,9 @@ import React from 'react';
 import './Home.css';
 
 const Home = () => {
+  const grabClasses = () => {
+    
+  }
   return (
     <div className="dashboard">
       <h2 className="dashboard-title">Welcome, Mikayla</h2>

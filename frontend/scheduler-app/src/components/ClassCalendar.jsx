@@ -10,7 +10,7 @@ function ClassCalendar({ classes, setClasses }) {
 
   // Fetch all courses on load
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/courses')
+    fetch('http://localhost:8000/api/courses')
       .then(res => res.json())
       .then(data => {
         console.log('Fetched courses:', data);
