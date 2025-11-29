@@ -33,6 +33,13 @@ class CourseSeeder extends Seeder
                 'end_time' => '17:45:00',
                 'semester' => 'Fall 2025',
             ],
+            [
+                'title' => 'Math330 Linear Algebra',
+                'days' => ['Mon', 'Wed', 'Fri'],
+                'start_time' => '12:00:00',
+                'end_time' => '12:50:00',
+                'semester' => 'Fall 2025',
+            ]
         ];
 
         foreach ($courses as $course) {
