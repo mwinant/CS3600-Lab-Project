@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 const Home = () => {
+  const [name, setName] = useState('');
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('user');
+      if (raw) {
+        const u = JSON.parse(raw);
+        if (u && u.name) setName(u.name);
+      }
+    } catch (e) {
+      // ignore parse errors and keep name empty
+    }
+  }, []);
   return (
     <div className="dashboard">
-      <h2 className="dashboard-title">Welcome, Mikayla</h2>
+      <h2 className="dashboard-title">Welcome{ name ? `, ${name}` : ',' } </h2>
 
       <div className="widgets">
         <div className="widget hoverable">

@@ -14,8 +14,9 @@ public function up()
     Schema::create('courses', function (Blueprint $table) {
         $table->id();
         $table->string('title');
-        $table->date('date');
-        $table->time('time');
+        $table->json('days');
+        $table->time('start_time');
+        $table->time('end_time')->nullable();
         $table->string('semester');
         $table->timestamps();
     });

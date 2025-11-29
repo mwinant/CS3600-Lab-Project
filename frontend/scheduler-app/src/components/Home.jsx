@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 const Home = () => {
+  const [name, setName] = useState('User');
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('user');
+      if (raw) {
+        const u = JSON.parse(raw);
+        if (u && u.name) setName(u.name);
+      }
+    } catch (e) {
+      // keep default name
+    }
+  }, []);
+
   return (
     <div className="dashboard">
-      <h2>Welcome, Mikayla 👋</h2>
+      <h2>Welcome, {name}</h2>
       <p className="subtitle">Your semester at a glance</p>
 
       <div className="widgets">

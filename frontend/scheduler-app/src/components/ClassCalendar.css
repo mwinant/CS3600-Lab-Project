@@ -38,3 +38,24 @@ button:hover {
   transform: scale(1.05);
 }
 
+.form-toggle-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.toggle-form-btn {
+  background: #87E1F5;
+  color: #063447;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.toggle-form-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
