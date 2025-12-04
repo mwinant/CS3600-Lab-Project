@@ -512,7 +512,7 @@ function ClassCalendar({ classes, setClasses }) {
       
       <div style={{marginBottom: '1rem', display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap'}}>
         <div>
-          <label style={{marginRight: '0.5rem', fontWeight: 'bold'}}>Season:</label>
+          <label style={{marginRight: '0.5rem', fontWeight: 'bold'}}>Semester:</label>
           <select 
             value={selectedSeason} 
             onChange={(e) => setSelectedSeason(e.target.value)}
