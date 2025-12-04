@@ -17,7 +17,9 @@ public function up()
         $table->json('days');
         $table->time('start_time');
         $table->time('end_time')->nullable();
-        $table->string('semester');
+        $table->date('start_date')->nullable();
+        $table->date('end_date')->nullable();
+        $table->string('semester')->nullable();
         $table->timestamps();
     });
 }
