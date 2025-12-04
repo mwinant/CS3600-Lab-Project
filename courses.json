@@ -1,0 +1,1226 @@
+[
+  {
+    "title": "Computational Thinking and Problem Solving",
+    "days": "mwf",
+    "start_time": "12:30 pm",
+    "end_time": "01:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -1",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -2",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -3",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -4",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -5",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science I -6",
+    "days": "mwf",
+    "start_time": "09:30 am",
+    "end_time": "10:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science II",
+    "days": "mwf",
+    "start_time": "11:30 am",
+    "end_time": "12:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Organization and Architecture",
+    "days": "mwf",
+    "start_time": "01:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Programming Languages",
+    "days": "mwf",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "System Software",
+    "days": "mwf",
+    "start_time": "11:30 am",
+    "end_time": "12:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Operating Systems",
+    "days": "mwf",
+    "start_time": "02:30 pm",
+    "end_time": "03:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Analysis of Algorithms -1",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Analysis of Algorithms -2",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Software Engineering -1",
+    "days": "tuth",
+    "start_time": "09:00 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Software Engineering -2",
+    "days": "tuth",
+    "start_time": "09:00 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Database Systems -1",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Database Systems -2",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Database Systems -3",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Contemporary Issues in Computer Science -1",
+    "days": "m",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Contemporary Issues in Computer Science -2",
+    "days": "m",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -1",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST: Digital Twins -1",
+    "days": "mwf",
+    "start_time": "12:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -2",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Compiler Design -1",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Compiler Design -2",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "SFS Professional Develop -1",
+    "days": "mwf",
+    "start_time": "01:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Supervisory Control and Critical Infrastructure Systems -1",
+    "days": "mwf",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Supervisory Control and Critical Infrastructure Systems -2",
+    "days": "mwf",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Real-Time Operating Systems -1",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Real-Time Operating Systems -2",
+    "days": "mwf",
+    "start_time": "01:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Robotic Systems Engineering II -1",
+    "days": "tuth",
+    "start_time": "02:00 pm",
+    "end_time": "03:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Robotic Systems Engineering II -2",
+    "days": "tuth",
+    "start_time": "02:00 pm",
+    "end_time": "03:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -1",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -2",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Advanced PLC Programming -1",
+    "days": "mwf",
+    "start_time": "10:30 am",
+    "end_time": "11:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Advanced PLC Programming -2",
+    "days": "mwf",
+    "start_time": "10:30 am",
+    "end_time": "11:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -1",
+    "days": "tuth",
+    "start_time": "09:30 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -2",
+    "days": "tuth",
+    "start_time": "09:30 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -1",
+    "days": "tuth",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -2",
+    "days": "tuth",
+    "start_time": "07:00 pm",
+    "end_time": "08:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -3",
+    "days": "tuth",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -1",
+    "days": "mw",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -2",
+    "days": "mw",
+    "start_time": "07:00 pm",
+    "end_time": "08:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -3",
+    "days": "mw",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "CS Senior Capstone Design I",
+    "days": "tuth",
+    "start_time": "03:30 pm",
+    "end_time": "04:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "CS Senior Capstone Design II -1",
+    "days": "tuth",
+    "start_time": "03:30 pm",
+    "end_time": "04:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "CS Senior Capstone Design II -2",
+    "days": "tuth",
+    "start_time": "03:30 pm",
+    "end_time": "04:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -1",
+    "days": "tuth",
+    "start_time": "08:00 am",
+    "end_time": "09:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -2",
+    "days": "tuth",
+    "start_time": "08:00 am",
+    "end_time": "09:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -2",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -3",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -4",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -5",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -7",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -8",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -9",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -10",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -11",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -12",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Master's Research and Thesis -13",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science Grad Seminar -1",
+    "days": "w",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science Grad Seminar -2",
+    "days": "w",
+    "start_time": "04:30 pm",
+    "end_time": "05:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science Grad Seminar -3",
+    "days": "w",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science Grad Seminar -4",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Computer Science Grad Seminar -5",
+    "days": "w",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -3",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST: Digital Twins -2",
+    "days": "mwf",
+    "start_time": "12:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -4",
+    "days": "tuth",
+    "start_time": "12:00 pm",
+    "end_time": "01:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -5",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "ST:Natural Language Processing -7",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Supervisory Control and Critical Infrastructure Systems -3",
+    "days": "mwf",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Supervisory Control and Critical Infrastructure Systems -4",
+    "days": "mwf",
+    "start_time": "03:30 pm",
+    "end_time": "04:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Real-Time Operating Systems -3",
+    "days": "tuth",
+    "start_time": "11:00 am",
+    "end_time": "12:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Real-Time Operating Systems -4",
+    "days": "tuth",
+    "start_time": "12:00 pm",
+    "end_time": "01:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Real-Time Operating Systems -5",
+    "days": "mwf",
+    "start_time": "01:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Robotic Systems Engineering II -3",
+    "days": "tuth",
+    "start_time": "02:00 pm",
+    "end_time": "03:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Robotic Systems Engineering II -4",
+    "days": "tuth",
+    "start_time": "02:00 pm",
+    "end_time": "03:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Database Management Systems Design",
+    "days": "tuth",
+    "start_time": "03:30 pm",
+    "end_time": "04:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -3",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -4",
+    "days": "tuth",
+    "start_time": "01:30 pm",
+    "end_time": "02:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -5",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Data Science -7",
+    "days": "tuth",
+    "start_time": "12:30 pm",
+    "end_time": "01:45 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Advanced PLC Programming -3",
+    "days": "mwf",
+    "start_time": "10:30 am",
+    "end_time": "11:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Advanced PLC Programming -4",
+    "days": "mwf",
+    "start_time": "11:30 am",
+    "end_time": "12:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Advanced PLC Programming -5",
+    "days": "mwf",
+    "start_time": "10:30 am",
+    "end_time": "11:20 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -3",
+    "days": "tuth",
+    "start_time": "09:30 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -4",
+    "days": "tuth",
+    "start_time": "10:30 am",
+    "end_time": "11:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -5",
+    "days": "tuth",
+    "start_time": "09:30 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Convex Optimization -7",
+    "days": "tuth",
+    "start_time": "09:30 am",
+    "end_time": "10:45 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -4",
+    "days": "tuth",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -5",
+    "days": "tuth",
+    "start_time": "07:00 pm",
+    "end_time": "08:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -6",
+    "days": "tuth",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -7",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Adversarial Machine Learning -8",
+    "days": "tuth",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -4",
+    "days": "mw",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -5",
+    "days": "mw",
+    "start_time": "07:00 pm",
+    "end_time": "08:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -6",
+    "days": "mw",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -7",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Python for Machine Learning -8",
+    "days": "mw",
+    "start_time": "06:00 pm",
+    "end_time": "07:15 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -3",
+    "days": "tuth",
+    "start_time": "08:00 am",
+    "end_time": "09:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -4",
+    "days": "tuth",
+    "start_time": "09:00 am",
+    "end_time": "10:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -5",
+    "days": "tuth",
+    "start_time": "08:00 am",
+    "end_time": "09:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Machine Vision -6",
+    "days": "tuth",
+    "start_time": "08:00 am",
+    "end_time": "09:15 am",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "SFS Professional Develop -2",
+    "days": "mwf",
+    "start_time": "01:30 pm",
+    "end_time": "02:20 pm",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -2",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -3",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -4",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -5",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -7",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -8",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -9",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -10",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -11",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -12",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Non-thesis Master?s Research -13",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -1",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -2",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -3",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -4",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -5",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -6",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -7",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -8",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -9",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -10",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -11",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -12",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  },
+  {
+    "title": "Doctoral Research and Dissertation -13",
+    "days": "",
+    "start_time": "",
+    "end_time": "",
+    "start_date": "2026-01-14",
+    "end_date": "2026-05-15",
+    "semester": "Spring 2026"
+  }
+]
