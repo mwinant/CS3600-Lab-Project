@@ -1,8 +1,21 @@
 import React, { useState } from 'react';
 import './SignUp.css';
+import axios from 'axios';
+
+const API = 'http://localhost:8000/api';
+
 const SignUp = () => {
+
   const sendSignUpData = (username, email, password) => {
-    // TODO: Implement sign-up logic in backend
+    axios.post(`${API}/signup`, { username, email, password })
+      .then(response => {
+        console.log('Sign-up successful:', response.data);
+        // redirect to home on successful sign-up
+        window.location.href = '/';
+      })
+      .catch(error => {
+        console.error('Error signing up:', error);
+      });
   }
   return (
     <div className="signup-page">

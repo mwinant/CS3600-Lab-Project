@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
 import './SignIn.css';
+import axios from 'axios';
+
+const API = 'http://localhost:8000/api';
 const SignIn = () => {
    const sendSignInData = (email, password) => {
-    // TODO: Implement sign-in logic in backend
+     axios.post(`${API}/login`, { email, password })
+       .then(response => {
+         console.log('Sign-in successful:', response.data);
+          window.location.href = '/';
+       })
+       .catch(error => {
+         console.error('Error signing in:', error);
+         window.location.href = '/';
+       });
   }
   return (
     <div className="signin-page">
