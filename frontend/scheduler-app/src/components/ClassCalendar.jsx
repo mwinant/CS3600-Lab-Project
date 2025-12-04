@@ -508,7 +508,7 @@ function ClassCalendar({ classes, setClasses }) {
           ))}
         </ul>
       </div>
-      <button style={{marginBottom: '1rem'}} onClick={logLocalStorageClasses}>Debug: Log Classes in localStorage</button>
+      {/* <button style={{marginBottom: '1rem'}} onClick={logLocalStorageClasses}>Debug: Log Classes in localStorage</button> */}
       
       <div style={{marginBottom: '1rem', display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap'}}>
         <div>
